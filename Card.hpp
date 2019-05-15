@@ -20,6 +20,15 @@ class Card{
       string name;
       switch(c.value){
         case 11:
+          os << "Jack";
+          break;
+        case 12:
+          os << "Queen";
+          break;
+        case 13:
+          os << "King";
+          break;
+        case 14:
           os << "Ace";
           break;
         default:
